@@ -1,0 +1,11 @@
+.style-test{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    width: 10%;
+    color:#000;
+    border-bottom:2px #000 solid ;
+}

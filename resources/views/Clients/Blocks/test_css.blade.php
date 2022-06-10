@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{{asset('asset/mystyle.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/mystyle.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
 </head>
 <body>
     <h1>hello</h1>
     <div class="style-test">
             <a class ="btn btn-danger"href="#">Submit</a>
-            <a class ="btn btn-warning"href="#">Quay lai</a>
+            <a class ="btn btn-warning"href="#">Quay lai</a> 
     </div>
+    <h3>comit lan 2</h3>
 </body>
 </html>
