@@ -2,11 +2,9 @@
 <html>
 
 <head>
-    <title>Glance Design Dashboard</title>
+    <title>KienVu - {{$title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   {{--  <meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" /> --}}
     <script type="application/x-javascript">
         addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
@@ -71,7 +69,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <h1><a class="navbar-brand" href="index.html"><span class="fa fa-area-chart"></span>
+                        <h1><a class="navbar-brand" href="#"><span class="fa fa-area-chart"></span>
                                 Team Puppy<span class="dashboard_text">Admin dashboard</span></a></h1>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -89,8 +87,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu">
-                                    <li><a href="#"> Them bai viet</a></li>
-                                    <li><a href="#"> Hien thi bai viet</a></li>
+                                    <li><a href="{{route('add_category_dog')}} "> Them bai viet</a></li>
+                                    <li><a href="{{route('all_category_dog')}} "> Hien thi bai viet</a></li>
                                 </ul>
                             </li> 
                           
@@ -255,6 +253,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 
 
+
+
+
         <!-- main content start-->
         <div id="page-wrapper">
             <div class="main-page">
@@ -262,6 +263,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
         {{-- main content end --}}
+
+
 
 
 

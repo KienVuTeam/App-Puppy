@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+
 class HomeController extends Controller
 {
     //
@@ -29,9 +30,10 @@ class HomeController extends Controller
 
 
     public function index(){
-        return view('Dashboard.index');
+        $title="Trang dashboard";
+        return view('Dashboard.index', compact('title'));
     }
     public function ck4(){
-        return view('Dashboard.ck4');
+        return view('Dashboard.ck4', compact('title'));
     }
 }
