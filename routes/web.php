@@ -27,3 +27,6 @@ Route::prefix('/admin')->group(function(){
     Route::get('/services', [HomeController::class, 'service'])->name('ServicesPage');
     Route::get('/about', [HomeController::class, 'about'])->name('AboutPage');
 });
+
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/ck4', [HomeController::class, 'ck4']);

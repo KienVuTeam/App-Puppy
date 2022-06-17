@@ -17,6 +17,7 @@
 
     <div>
         @yield('content')
+        {{-- @yield('css-list') --}}
     </div>
 
     @include('Clients.Blocks.footer')

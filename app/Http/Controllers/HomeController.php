@@ -11,10 +11,6 @@ class HomeController extends Controller
     public function __construct(){
 
     }
-    public function index(){
-        $title="Trang chu";
-        return view('Clients.index', compact('title'));
-    }
 
     public function contact(){
         $title="Trang contact";
@@ -29,5 +25,13 @@ class HomeController extends Controller
     public function about(){
         $title="Trang about";
         return view('Clients.about', compact('title'));
+    }
+
+
+    public function index(){
+        return view('Dashboard.index');
+    }
+    public function ck4(){
+        return view('Dashboard.ck4');
     }
 }
